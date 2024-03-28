@@ -25,7 +25,7 @@
 # VARIABLE_TRACE = no       # Debugging/unit-testing trace on variables
 # API_SYSEX_ENABLE = no     # Something to do with quantum Sysex API
 # KEY_LOCK_ENABLE = no      # Key locking; artificially hold down a BASIC KEYCODE. 7%.
-# SPLIT_KEYBOARD = yes      # Dual MCUs need to work together.
+SPLIT_KEYBOARD = yes        # Dual MCUs need to work together.
 
 OLED_ENABLE = no          # An OLED, or two, is attached.
 # TAP_DANCE_ENABLE = no     # Double, or more, tapping
